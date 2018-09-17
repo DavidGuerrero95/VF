@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+//import java.util.InputMismatchException;
+
+public class MyClass {
+
+    public static void main(String args[]) {
+
+        double quices, labs, expo, p1, pf, notaFinal;
+
+        Scanner lector = new Scanner (System.in);
+                       //Leer de teclado
+
+        System.out.println("Digite la nota de quices: ");
+               //Imprimir pantalla
+
+        quices = lector.nextDouble();
+
+        System.out.println("Digite la nota de labs: ");
+
+        labs = lector.nextDouble();
+
+        System.out.println("Digite la nota de expo: ");
+
+        expo = lector.nextDouble();
+
+        System.out.println("Digite la nota del proyecto 1: ");
+
+        p1 = lector.nextDouble();
+
+        System.out.println("Digite la nota del proyecto final: ");
+
+        pf = lector.nextDouble();
+
+        notaFinal = quices*0.2 + labs*0.3 + expo*0.1 + p1*0.15 + pf*0.25;
+
+        System.out.println("la nota final es: "+notaFinal);
+
+        if(notaFinal >= 0 && notaFinal <=1){
+
+            System.out.println("Estas en el lugar equivocado");
+
+        }else
+            if(notaFinal >1 && notaFinal <=2){
+
+                System.out.println("Remal");
+
+            }else
+
+                if(notaFinal >2 && notaFinal <=3){
+
+                    System.out.println("Es posible recuperarse");
+
+                }else
+
+                    if(notaFinal >3 && notaFinal <=4){
+
+                        System.out.println("Muy bien");
+
+                    }else
+
+                        if(notaFinal >4 && notaFinal <=4.5){
+
+                            System.out.println("Muy bien");
+
+                        }else
+
+                            System.out.println("Excelente estudiante");
+    }
+
+}

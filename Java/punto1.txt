@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MyClass {
+	public static void main(String args[]) {
+
+		double kil, mill;
+		Scanner lector = new Scanner (System.in);
+
+		System.out.println("Ingrese el numero de kilometros: ");
+       		kil = lector.nextDouble();
+		mill = kil*0.6214;
+
+		System.out.println("La distancia en millas de: "+kil+"km es: "+mill);
+	}
+}

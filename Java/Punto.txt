@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class MyClass {
+
+    public static void main(String args[]) {
+
+        int posLetra, cont;
+
+        String entrada, devuelta;
+
+        Scanner lector = new Scanner(System.in);
+
+        System.out.println("Ingrese marca  de  un  automóvil  seguido  de  su  modelo: ");
+
+        entrada = lector.nextLine();
+        posLetra = entrada.indexOf(" ");
+
+        cont = entrada.length();
+
+        devuelta = entrada.substring(posLetra+1,cont)+" "+entrada.substring(0,posLetra);
+
+        System.out.println(devuelta);
+
+    }
+
+}

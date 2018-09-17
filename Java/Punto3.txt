@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class MyClass {
+
+    public static void main(String args[]) {
+
+        double radio, perim, area, diametro, pi = 3.14159;
+
+        Scanner lector = new Scanner(System.in);
+
+        System.out.println("Radio = ");
+
+        radio = lector.nextDouble();
+
+        diametro = radio*2;
+
+        area = pi*Math.pow(radio,2);
+
+        perim = pi*diametro;
+
+        System.out.println("El area del circulo de radio: "+radio+"cm es "+area+"cm2"+" diametro: "+diametro+" perimetro ="+perim);
+
+    }
+
+}

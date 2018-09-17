@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class MyClass {
+
+    public static void main(String args[]) {
+
+        double num1, num2,sum,prom,sumSquare;
+
+        Scanner lector = new Scanner (System.in);
+
+
+        
+System.out.println("Numero 1: ");
+
+        num1 = lector.nextDouble();
+
+        System.out.println("Numero 2: ");
+
+        num2 = lector.nextDouble();
+
+        sum = num1 + num2;
+
+        prom = sum/2;
+
+        sumSquare = Math.pow(num1,2) + Math.pow(num2,2);
+
+        
+
+        System.out.println("La suma de los dos numeros es: "+sum+" El promedio es: "+prom+" y la suma de sus numeros al cuadrado es: "+sumSquare);
+
+        
+
+    }
+
+}
