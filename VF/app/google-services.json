@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1043971009009",
+    "firebase_url": "https://spheric-baton-232818.firebaseio.com",
+    "project_id": "spheric-baton-232818",
+    "storage_bucket": "spheric-baton-232818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043971009009:android:a6a226146b5f8f3e",
+        "android_client_info": {
+          "package_name": "com.lenovoexample.tracingvf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043971009009-ppq3o8sqbohg2tmptqj5ct5b4s2apunk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lenovoexample.tracingvf",
+            "certificate_hash": "aad802cf2024f5854aa01ccba2af2b8229c8396b"
+          }
+        },
+        {
+          "client_id": "1043971009009-34l75lmppucqj0hpt4ns5ch9hm9e8cbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWdMBh_spczuk5xVFP6ZuTsrK5cWuWJNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043971009009-34l75lmppucqj0hpt4ns5ch9hm9e8cbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

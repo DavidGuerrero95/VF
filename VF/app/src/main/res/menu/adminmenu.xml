@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mEventos"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/notificaciones" />
+
+    <item
+        android:id="@+id/mClientes"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/clientes" />
+
+    <item
+        android:id="@+id/mSupervisores"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/supervisores" />
+    <item
+        android:id="@+id/mMapa"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/mapa"/>
+
+</menu>
